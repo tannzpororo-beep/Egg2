@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#0b1020">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="manifest" href="./manifest.json">
+<title>Tann Egg Heist 3D</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div id="app">
+<div id="rotate"><div>↻</div><strong>ROTATE YOUR DEVICE</strong><span>Landscape mode required</span></div>
+<div id="loading"><div class="egg-loader">🥚</div><h1>TANN EGG HEIST</h1><p>STARTING WORLD...</p><div class="loadbar"><i id="loadProgress"></i></div></div>
+<canvas id="game"></canvas><div id="hud"></div><div id="menu"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.min.js"></script>
+<script src="./game.js"></script>
+
+</body>
+</html>
